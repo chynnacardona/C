@@ -8,11 +8,11 @@ public class Books {
     public String title;
     public String author;
     public int pubDate;
-    public Sting origin;
+    public String origin;
 }
 
 Call the objects via (non static):
-    Books book = new Book();
+    Books book = new Books();
     book.title = "ble bla";
 */
 
