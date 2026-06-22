@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_INPUT 5 //computer sets aside exactly 5 slots locked into RAM (5 rows)
+#define MAX_INPUT 5 
 /*
 equivalent of data objects in Java:
 public class Books {
