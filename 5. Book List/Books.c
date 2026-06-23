@@ -23,7 +23,11 @@ struct Info {
     char origin[50];
 };
 
-// Function prototype/declaration - passing the array of structs, a heads-up notice to the C compiler.
+/*
+Function prototype/declaration - passing the array of structs, a heads-up notice to the C compiler.
+the * is a pointer, a variable that stores a memory address
+the "list" is like the name of the variable pointing to Info (and what will be inputted)
+*/ 
 void getEntries(struct Info *list, int max_entries);
 
 /*doing int main(void) is better that int main() -- the (void) talks to the compiler to
