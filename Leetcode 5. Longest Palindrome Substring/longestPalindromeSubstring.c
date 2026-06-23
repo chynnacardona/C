@@ -75,7 +75,6 @@ char* getSubstring(char *s, int start, int end) {
     so malloc((sub_len +1) * sizeof(char)) basically means that we are allocating an array 
     with sub_len + 1 length, and each "block" inside that array holds a char with a size of sizeof(char)
     */
-
     if (sub == NULL) return NULL;
 
     strncpy(sub, s + start, sub_len);
