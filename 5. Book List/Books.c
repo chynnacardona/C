@@ -107,6 +107,5 @@ void getEntries(struct Info *list, int max_entries) {
 
         i++;
     }
-
     fclose(filePointer);   
 }
